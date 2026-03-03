@@ -1,0 +1,127 @@
+{
+  "projectType": "infrastructure",
+  "projectName": "5G Mobile Core",
+  "projectDescription": "A complete 5G Standalone (SA) mobile core implementation with nine network functions for telecom infrastructure.",
+  "theme": "aspen",
+  "primaryColor": "#0066CC",
+  "lightColor": "#4D94FF",
+  "darkColor": "#003D7A",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "architecture"
+            ]
+          },
+          {
+            "group": "Installation & Setup",
+            "pages": [
+              "installation/prerequisites",
+              "installation/docker-setup",
+              "installation/configuration",
+              "installation/troubleshooting"
+            ]
+          },
+          {
+            "group": "Network Functions",
+            "pages": [
+              "network-functions/overview",
+              "network-functions/nrf",
+              "network-functions/amf",
+              "network-functions/smf",
+              "network-functions/upf",
+              "network-functions/ausf",
+              "network-functions/udm",
+              "network-functions/nssf",
+              "network-functions/scp",
+              "network-functions/sepp"
+            ]
+          },
+          {
+            "group": "Operations",
+            "pages": [
+              "operations/deployment",
+              "operations/subscriber-provisioning",
+              "operations/monitoring",
+              "operations/logging",
+              "operations/testing"
+            ]
+          },
+          {
+            "group": "Configuration",
+            "pages": [
+              "configuration/network-settings",
+              "configuration/environment-variables",
+              "configuration/network-functions",
+              "configuration/security"
+            ]
+          },
+          {
+            "group": "Web UI",
+            "pages": [
+              "web-ui/overview",
+              "web-ui/subscribers",
+              "web-ui/sessions",
+              "web-ui/metrics"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Reference",
+        "groups": [
+          {
+            "group": "Network Specifications",
+            "pages": [
+              "reference/3gpp-standards",
+              "reference/network-topology",
+              "reference/protocols"
+            ]
+          },
+          {
+            "group": "Scripts & Tools",
+            "pages": [
+              "reference/scripts",
+              "reference/cli-commands"
+            ]
+          },
+          {
+            "group": "Integration",
+            "pages": [
+              "reference/ueransim",
+              "reference/radio-integration"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Complete 5G SA core with 9 network functions",
+    "Docker-based containerized deployment",
+    "Service-based architecture (SBA)",
+    "UERANSIM integration for testing",
+    "Web UI for subscriber management",
+    "Multi-language implementation (Rust & TypeScript)",
+    "MongoDB-backed data persistence",
+    "Production-ready Docker Compose orchestration"
+  ],
+  "publicApiSurface": [
+    "NRF - Network Repository Function (Service discovery)",
+    "AMF - Access and Mobility Management (Registration, mobility)",
+    "SMF - Session Management (PDU sessions)",
+    "UPF - User Plane Function (Data forwarding)",
+    "AUSF - Authentication Server (Subscriber authentication)",
+    "UDM - Unified Data Management (Subscriber data)",
+    "NSSF - Network Slice Selection (Slice selection)",
+    "SCP - Service Communication Proxy (Inter-NF communication)",
+    "SEPP - Security Edge Protection Proxy (Inter-PLMN security)",
+    "Web UI API - Subscriber management endpoints"
+  ]
+}
